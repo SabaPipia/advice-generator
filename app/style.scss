@@ -1,0 +1,33 @@
+body {
+  background: #202733;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.advice-card {
+  background-color: #313a48;
+  padding: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 540px;
+  // height: 332px;
+  border-radius: 15px;
+  position: relative;
+}
+.advice-card__header {
+  color: #53ffaa;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.advice-card__advice {
+  margin-top: 30px;
+  color: #cee3e9;
+  font-size: 28px;
+}
+.advice-card__line {
+  height: 1px;
+  background-color: #4f5d74;
+  margin: 20px auto;
+}
